@@ -17,6 +17,7 @@ Easily used with standard output:
 
 
 The string class can be used as well as C-style strings:
+
 	string s = "Testing..."
 	cout << fstring("%s%d, %f, %d\n")% s % 1 % 2.0 % 42;
 
